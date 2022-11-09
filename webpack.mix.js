@@ -15,7 +15,7 @@ require('laravel-mix-serve');
 mix
   .copyDirectory('src/assets', 'www/assets')
   .js('src/scripts/app.js', 'www/assets/scripts/')
-  .sass('src/styles/app.scss', 'www/assets/styles/')
+  .sass('src/styles/app.scss', 'assets/styles/')
   .options({
     processCssUrls: false,
     autoprefixer: {
